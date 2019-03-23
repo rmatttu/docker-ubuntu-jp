@@ -5,8 +5,6 @@ ENV LANG ja_JP.UTF-8en_US.UTF-8
 ENV LANGUAGE ja_JP:ja
 ENV LC_ALL ja_JP.UTF-8
 
-WORKDIR /root
-
 RUN ( echo "Set Japan locale and time zone." \
     && sed -i.bak -e "s%http://[^ ]\+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list \
     && apt -y update \

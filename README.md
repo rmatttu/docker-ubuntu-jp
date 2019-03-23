@@ -1,4 +1,5 @@
 # docker-ubuntu-jp
 
-Docker Ubuntu Japan locale and time zone.
+Docker Ubuntu:18.04 Japan locale and time zone.
+This is simple image.
 
