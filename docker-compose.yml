@@ -1,0 +1,8 @@
+version: "3"
+services:
+    ubuntu-jp:
+        container_name: ubuntu-jp
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        command: "tail -f /dev/null"
